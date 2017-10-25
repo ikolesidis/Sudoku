@@ -37,7 +37,7 @@ public class Board {
         if (i>0&&i<10){
             if (j>0&&j<10){
                 if (key>0&&key<10){
-                    board[i][j]=key;
+                    board[i-1][j-1]=key;
                     return true;
                 }else{
                     return false;
@@ -53,7 +53,7 @@ public class Board {
     public boolean removeKey(int i,int j){
         if (i>0&&i<10){
             if (j>0&&j<10){
-                board[i][j]=0;
+                board[i-1][j-1]=0;
                 return true;
             }else {
                 return false;

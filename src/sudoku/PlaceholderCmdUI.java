@@ -21,7 +21,7 @@ public class PlaceholderCmdUI {
         int command=0;
         while (command!=3){
             printBoard();
-            System.out.println("\n");
+            //System.out.println("\n");
             System.out.println("1 - Insert key");
             System.out.println("2 - Delete key");
             System.out.println("3 - Exit");
@@ -32,9 +32,14 @@ public class PlaceholderCmdUI {
         scan.close();
     }
     private void printBoard(){
+        System.out.printf("\n");
         for (int j=0;j<9;j++){
-            for (int i=0;i<9;i++){
-                System.out.println(boardCMD.board[i][j]);
+            for (int i=0;i<9;i+=3){
+                System.out.printf("%d %d %d | ",boardCMD.board[i][j],boardCMD.board[i+1][j],boardCMD.board[i+2][j]);
+            }
+            System.out.printf("\n");
+            if ((j+1)%3==0){
+                System.out.printf("- - -  - - -  - - - \n");
             }
         }
     }
