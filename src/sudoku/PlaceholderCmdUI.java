@@ -57,7 +57,10 @@ public class PlaceholderCmdUI {
             System.out.println("Please enter the column");
             stringCommand = scan.next();
             column=Integer.parseInt(stringCommand);
-            boardCMD.addKey(key, line, column);
+            if (!boardCMD.addKey(key, line, column)){
+                System.out.println("Wrong input please try again");
+                commandExecute(i);
+            }
         }else if (i == 2){
             System.out.println("Please enter the line");
             stringCommand = scan.next();
@@ -65,7 +68,10 @@ public class PlaceholderCmdUI {
             System.out.println("Please enter the column");
             stringCommand = scan.next();
             column=Integer.parseInt(stringCommand);
-            boardCMD.removeKey(line, column);
+            if (!boardCMD.removeKey(line, column)){
+                System.out.println("Wrong input please try again");
+                commandExecute(i);
+            }
         }else if (i ==3){
         }else{
             System.out.println("Wrong command please input a correct one");
