@@ -13,25 +13,57 @@ public class Board {
 
     private int[] totalLines = new int[9];
     private int[] totalColumns = new int[9];
+    private int[] totalCells = new int[9];
     private int[][] board;
     public Board() {
         board = new int[9][9];
     }
     
-    private int[] currentLine(int j){
+    public int[] currentLine(int j){
         int[] line = new int[9];
         for (int i=0;i<9;i++){
             line[i]=board[i][j];
         }
-        return line;
+        int[] returnLine = line;
+        return returnLine;
     }
     
-    private int[] CurrentColumn(int i){
+    public int[] CurrentColumn(int i){
         int[] column = new int[9];
         for (int j=0;j<9;j++){
             column[j]=board[i][j];
         }
-        return column;
+        int[] returnColumn = column;
+        return returnColumn;
+    }
+    
+    public int[][] CurrentCell (int i, int j){
+        int[][] cell = new int[3][3];
+        int x=0,y;
+        if (i<3){
+            i=0;
+        }else if(i<6){
+            i=3;
+        }else {
+            i=6;
+        }
+        if (j<3){
+            j=0;
+        }else if(j<6){
+            j=3;
+        }else {
+            j=6;
+        }
+        for (int n=i;n<i+3;n++){
+            y=0;
+            for (int k=j;k<j+3;k++){
+                cell[x][y]=board[n][k];
+                y++;
+            }
+            x++;
+        }
+        int[][] returnCell = cell;
+        return  returnCell;
     }
     public boolean addKey(int key,int i, int j){
         if (i>0&&i<10){

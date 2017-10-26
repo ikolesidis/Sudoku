@@ -27,9 +27,10 @@ public class PlaceholderCmdUI {
             System.out.println("3 - Exit");
             stringCommand = scan.next();
             command=Integer.parseInt(stringCommand);
-            commandExecute(command);
+            if (command!=3){
+            commandExecute(command);}
         }
-        scan.close();
+        //scan.close();
     }
     private void printBoard(){
         System.out.printf("\n");
@@ -73,6 +74,7 @@ public class PlaceholderCmdUI {
                 commandExecute(i);
             }
         }else if (i ==3){
+            
         }else{
             System.out.println("Wrong command please input a correct one");
             stringCommand = scan.next();

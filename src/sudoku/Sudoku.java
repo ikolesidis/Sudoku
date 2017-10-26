@@ -4,6 +4,7 @@
  * and open the template in the editor.
  */
 package sudoku;
+import SudokuGenerator.GenerateRandom;
 
 /**
  *
@@ -15,9 +16,10 @@ public class Sudoku {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Board board = new  Board();
-        PlaceholderCmdUI gui = new PlaceholderCmdUI(board);
-        gui.startCmd();
+        //Board board = new  Board();
+        //PlaceholderCmdUI gui = new PlaceholderCmdUI(board);
+        //gui.startCmd();
+        GenerateRandom board = new GenerateRandom();
     }
     
 }
