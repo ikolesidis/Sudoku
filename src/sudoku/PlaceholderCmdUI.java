@@ -35,7 +35,7 @@ public class PlaceholderCmdUI {
         System.out.printf("\n");
         for (int j=0;j<9;j++){
             for (int i=0;i<9;i+=3){
-                System.out.printf("%d %d %d | ",boardCMD.board[i][j],boardCMD.board[i+1][j],boardCMD.board[i+2][j]);
+                System.out.printf("%d %d %d | ",boardCMD.getKey(boardCMD, i, j),boardCMD.getKey(boardCMD, i+1, j),boardCMD.getKey(boardCMD, i+2, j));
             }
             System.out.printf("\n");
             if ((j+1)%3==0){

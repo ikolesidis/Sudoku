@@ -13,7 +13,7 @@ public class Board {
 
     private int[] totalLines = new int[9];
     private int[] totalColumns = new int[9];
-    public int[][] board;
+    private int[][] board;
     public Board() {
         board = new int[9][9];
     }
@@ -61,5 +61,8 @@ public class Board {
         }else {
             return false;
         }
+    }
+    public int getKey(Board keyValues, int i , int j){
+        return keyValues.board[i][j];
     }
 }
