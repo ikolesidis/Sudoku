@@ -9,15 +9,15 @@ import java.util.Scanner;
  *
  * @author Ilias Kolesidis
  */
-public class PlaceholderCmdUI {
+public class PlaceholderCmdUI {     //placeholder gui while i create a proper gui
 
-    private Board boardCMD;
-    private Scanner scan = new Scanner(System.in);
-    private String stringCommand;
-    public PlaceholderCmdUI(Board input) {
-        boardCMD=input;
+    private Board boardCMD;     //a board to work with
+    private Scanner scan = new Scanner(System.in);      //scanner to scan user input
+    private String stringCommand;       //string to save the commands to
+    public PlaceholderCmdUI(Board aBoard) {      
+        boardCMD=aBoard;
     }
-    public void startCmd(){
+    public void startCmd(){     //start the cmd commands
         int command=0;
         while (command!=3){
             printBoard(boardCMD);
@@ -32,7 +32,7 @@ public class PlaceholderCmdUI {
         }
         //scan.close();
     }
-    private void printBoard(Board boardCMD){
+    private void printBoard(Board boardCMD){        //prints the whole board with nice ascii
         System.out.printf("\n");
         for (int j=0;j<9;j++){
             for (int i=0;i<9;i+=3){
@@ -44,7 +44,7 @@ public class PlaceholderCmdUI {
             }
         }
     }
-    private void commandExecute(int i){
+    private void commandExecute(int i){     //execute the commands
         int key;
         int line;
         int column;

@@ -11,15 +11,15 @@ package sudoku;
  */
 public class Board {
 
-    private int[] totalLines = new int[9];
-    private int[] totalColumns = new int[9];
-    private int[] totalCells = new int[9];
-    private int[][] board;
-    public Board() {
+    private int[] totalLines = new int[9];      //an array that holds all 9 lines
+    private int[] totalColumns = new int[9];        //an array that holds all 9 columns
+    private int[] totalCells = new int[9];      //an array that holds all 9 cells
+    private int[][] board;      //a board that holds all 81 keys
+    public Board() {        //create an empty array
         board = new int[9][9];
     }
     
-    public int[] currentLine(int j){
+    public int[] currentLine(int j){        //returns an array with the values of the line's keys
         int[] line = new int[9];
         for (int i=0;i<9;i++){
             line[i]=board[i][j];
@@ -28,7 +28,7 @@ public class Board {
         return returnLine;
     }
     
-    public int[] CurrentColumn(int i){
+    public int[] currentColumn(int i){      //returns an array with the values of the column's keys
         int[] column = new int[9];
         for (int j=0;j<9;j++){
             column[j]=board[i][j];
@@ -37,7 +37,7 @@ public class Board {
         return returnColumn;
     }
     
-    public int[][] CurrentCell (int i, int j){
+    public int[][] currentCell (int i, int j){      //returns an array with the values of the column's keys
         int[][] cell = new int[3][3];
         int x=0,y;
         if (i<3){
@@ -65,7 +65,7 @@ public class Board {
         int[][] returnCell = cell;
         return  returnCell;
     }
-    public boolean addKey(int key,int i, int j){
+    public boolean addKey(int key,int i, int j){        //adds a key to the board
         if (i>0&&i<10){
             if (j>0&&j<10){
                 if (key>0&&key<10){
@@ -82,7 +82,7 @@ public class Board {
         }
         
     }
-    public boolean removeKey(int i,int j){
+    public boolean removeKey(int i,int j){      //removes a key from the board
         if (i>0&&i<10){
             if (j>0&&j<10){
                 board[i-1][j-1]=0;
@@ -94,7 +94,7 @@ public class Board {
             return false;
         }
     }
-    public int getKey(Board keyValues, int i , int j){
+    public int getKey(Board keyValues, int i , int j){  //returns a key from a selected possition
         return keyValues.board[i][j];
     }
 }
