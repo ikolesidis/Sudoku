@@ -17,7 +17,7 @@ import sudoku.PlaceholderCmdUI;
 public class GenerateRandom {
     private Board generatedBoard = new Board();
     private Random randomKey = new Random();
-    public boolean checkNull=false;
+    public boolean checkIfCompleted=false;
     //int key = randomKey.nextInt(9)+1;
     private int[] testLine = new int[9];
     private int[] testColumn = new int[9];
@@ -28,7 +28,7 @@ public class GenerateRandom {
         int flag=0;
         int key=0;
         int aKey=0;
-        int counts=0;
+        //int counts=0;
         for (int k=0;k<3;k++){
             for (int l=0;l<3;l++){
                 for (int x=(k+1)*3;x>k*3;x--){
@@ -36,8 +36,8 @@ public class GenerateRandom {
                         if(key!=-1){
                         key=generateRandomKeyAndCheck(aKey, keySet,x,y);
                         keySet.add(key);
-                        counts++;
-                        System.out.printf("\n %d : %d -k: %d l: %d  x: %d  y :%d ",counts,key,k,l,x,y);
+                        //counts++;
+                        //System.out.printf("\n %d : %d -k: %d l: %d  x: %d  y :%d ",counts,key,k,l,x,y);
                         generatedBoard.addKey(key, x, y);
                         //gui = new PlaceholderCmdUI(generatedBoard);
                         //gui.printBoard(generatedBoard);
@@ -52,8 +52,8 @@ public class GenerateRandom {
                 keySet.clear();
             }
         }
-        if (key==-1){
-            checkNull=true;
+        if (key!=-1){
+            checkIfCompleted=true;
         }
 //    gui = new PlaceholderCmdUI(generatedBoard);
 //    gui.startCmd(); 
@@ -84,7 +84,7 @@ public class GenerateRandom {
                     if (keySet.contains(key)){
                         key=randomKey.nextInt(9)+1;
                         count++;
-                        if (count==100){
+                        if (count==50){
                             return -1;
                         }
                     }else{
@@ -95,7 +95,7 @@ public class GenerateRandom {
                     flag2=0;
                     key=randomKey.nextInt(9)+1;
                     count++;
-                    if (count==100){
+                    if (count==50){
                         return -1;
                     }
                 }
@@ -109,5 +109,10 @@ public class GenerateRandom {
     //    ------  temp getBoard
     public int getKey(int i, int j){
         return generatedBoard.getKey(generatedBoard, i, j);
+    }
+    
+    public Board getBoard(){
+        Board newBoard = generatedBoard;
+        return newBoard;
     }
 }

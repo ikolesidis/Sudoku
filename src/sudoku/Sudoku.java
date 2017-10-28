@@ -19,30 +19,38 @@ public class Sudoku {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        generateAndPrintRandomBoard(100);
+    }
+    
+    public static Board createRandomCompletedBoard(){ //Creates a completed board and returns it
+        GenerateRandom newBoard = new GenerateRandom();
+        while (!newBoard.checkIfCompleted){ // while is here because GenerateRandom is brute force and doesnt always completes a board
+            newBoard = new GenerateRandom();
+        }
+        return newBoard.getBoard();
+    }
+    
+    
+    private static void generateAndPrintRandomBoard(int count){  // prints to a .txt file complete boards
         try{
-            int counts=0;
-        while (counts<100){    
-            
-        GenerateRandom board = new GenerateRandom();
-        if (!board.checkNull){
-        PrintStream out = new PrintStream(new FileOutputStream("`Sudoku_Puzzles.txt",true));
-        out.printf("\n");
-        for (int j=0;j<9;j++){
-            for (int i=0;i<9;i+=3){
-                out.printf("%d %d %d | ",board.getKey( i, j),board.getKey( i+1, j),board.getKey( i+2, j));
+            for (int k=0;k<count;k++){
+                Board aBoard = createRandomCompletedBoard();
+                PrintStream out = new PrintStream(new FileOutputStream("`Sudoku_Puzzles.txt",true));
+                out.printf("\n");
+                for (int j=0;j<9;j++){
+                    for (int i=0;i<9;i+=3){
+                        out.printf("%d %d %d  ",aBoard.getKey( aBoard,i, j),aBoard.getKey( aBoard,i+1, j),aBoard.getKey( aBoard,i+2, j));
+                    }
+                    out.printf("\n");
+                    if ((j+1)%3==0){
+                     out.printf("\n");
+                    }
+                }
             }
-            out.printf("\n");
-            if ((j+1)%3==0){
-                out.printf("- - -  - - -  - - - \n");
-            }
         }
-        out.printf("\n");
-        counts++;
+        catch (FileNotFoundException e){
         }
-        }
+       
     }
-    catch (FileNotFoundException e) {
-      e.printStackTrace();
-    }
-    }
+    
 }
