@@ -8,7 +8,6 @@ import sudoku.Board;
 import java.util.Random;
 import java.util.HashSet;
 import java.util.Set;
-import sudoku.PlaceholderCmdUI;
 
 /**
  *
