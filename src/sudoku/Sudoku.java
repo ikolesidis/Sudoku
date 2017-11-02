@@ -8,6 +8,7 @@ import SudokuGenerator.GenerateRandom;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
+import Help.PencilMarks;
 
 
 /**
@@ -19,7 +20,11 @@ public class Sudoku {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        generateAndPrintRandomBoard(100);
+        //generateAndPrintRandomBoard(100);
+        BoardGui a;
+        //PencilMarks marks = new PencilMarks();
+        a = new BoardGui();
+        a.setVisible(true);
     }
     
     public static Board createRandomCompletedBoard(){ //Creates a completed board and returns it

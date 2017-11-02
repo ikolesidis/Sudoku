@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Hints;
+package Help;
 import java.util.HashSet;
 import java.util.ArrayList;
 /**
@@ -11,9 +11,9 @@ import java.util.ArrayList;
  * @author Ilias Kolesidis
  */
 public class PencilMarks {
-//    private ArrayList<HashSet<Integer>> totalLines = new ArrayList<HashSet<Integer>>(9);
-//    private ArrayList<HashSet<Integer>> totalColumns = new ArrayList<HashSet<Integer>>(9);
-//    private ArrayList<HashSet<Integer>> totalCells = new ArrayList<HashSet<Integer>>(9);
+//    private ArrayList<HashSet> lines = new ArrayList<HashSet>(9);
+//    private ArrayList<HashSet> columns = new ArrayList<HashSet>(9);
+//    private ArrayList<HashSet> cells = new ArrayList<HashSet>(9);
     private ArrayList<ArrayList> DList = new ArrayList<ArrayList>(9);
     
     public PencilMarks() {
@@ -26,6 +26,8 @@ public class PencilMarks {
             }
             DList.add(DDList);
         }
+        addPencilMark(5, 0, 0);
+        printPencilMark(0, 0);
     }
     public boolean addPencilMark(int key,int i, int j){
         ArrayList<HashSet> aList = DList.get(i);

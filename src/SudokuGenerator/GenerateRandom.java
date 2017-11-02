@@ -101,4 +101,7 @@ public class GenerateRandom {
         Board newBoard = generatedBoard;
         return newBoard;
     }
+    public int getKey(int i, int j){
+        return generatedBoard.getKey(generatedBoard, i, j);
+    }
 }

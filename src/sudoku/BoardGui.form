@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup1">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup2">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup3">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="buttonGroup4">
+    </Component>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jButton2" min="-2" pref="116" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="157" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="label0_4" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="label0_3" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="label0_5" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label1_4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label2_4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label1_5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label2_5" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label1_3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label2_3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="label0_7" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="label0_6" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="label0_8" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label1_7" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label2_7" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label1_8" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label2_8" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label1_6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label2_6" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="label0_1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label0_2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="label0_0" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label1_1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label2_1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label1_2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label2_2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label1_0" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label2_0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="29" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="label3_2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                              <Component id="label4_2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label5_2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="label3_1" alignment="1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label3_0" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="label4_0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label4_1" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="label5_1" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label5_0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="label6_1" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="label6_0" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="label6_2" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label7_1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label8_1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label7_2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label8_2" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label7_0" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label8_0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="label3_4" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="label3_3" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="label3_5" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label4_4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label5_4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label4_5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label5_5" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label4_3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label5_3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="label6_4" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="label6_3" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="label6_5" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label7_4" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label8_4" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label7_5" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label8_5" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label7_3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label8_3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="label3_7" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="label3_6" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="label3_8" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label4_7" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label5_7" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label4_8" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label5_8" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label4_6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label5_6" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="label6_7" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="label6_6" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="label6_8" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label7_7" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label8_7" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label7_8" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label8_8" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="label7_6" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="label8_6" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="146" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="label6_0" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label7_0" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label8_0" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="label6_1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label7_1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label8_1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="label6_2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label7_2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label8_2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="label3_0" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label4_0" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label5_0" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="label3_1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label4_1" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label5_1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="label3_2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label4_2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="label5_2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="91" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="label0_0" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label1_0" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label2_0" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="label0_1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label1_1" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label2_1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="label0_2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label1_2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label2_2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="label6_3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label7_3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label8_3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="label6_4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label7_4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label8_4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="label6_5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label7_5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label8_5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="label3_3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label4_3" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label5_3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="label3_4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label4_4" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label5_4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="label3_5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label4_5" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label5_5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="label0_3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label1_3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label2_3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="label0_4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label1_4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label2_4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="label0_5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label1_5" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label2_5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="label6_6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label7_6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label8_6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="label6_7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label7_7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label8_7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="label6_8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label7_8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label8_8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="label3_6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label4_6" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label5_6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="label3_7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label4_7" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label5_7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="label3_8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label4_8" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="label5_8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="label0_6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label1_6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label2_6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="label0_7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label1_7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label2_7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="label0_8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label1_8" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="label2_8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace pref="50" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="New Board"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label0_0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="0_0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label1_0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1_0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label2_0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="2_0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label0_1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label1_1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label2_1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label0_2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label1_2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label2_2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label4_2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label5_2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label3_0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="3_0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label4_0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="4_0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label5_0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="5_0"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label3_1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label4_1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label5_1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label3_2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label7_2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label8_2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label6_0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label7_0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label8_0">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label6_1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label7_1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label8_1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label6_2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label0_3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label1_3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label2_3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label0_4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label1_4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label2_4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label0_5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label1_5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label2_5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label4_5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label5_5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label3_3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label4_3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label5_3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label3_4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label4_4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label5_4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label3_5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label7_5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label8_5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label6_3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label7_3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label8_3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label6_4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label7_4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label8_4">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label6_5">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label0_6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label1_6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label2_6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label0_7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label1_7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label2_7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label0_8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label1_8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label2_8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label4_8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label5_8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label3_6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label4_6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label5_6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label3_7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label4_7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label5_7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label3_8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label7_8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label8_8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label6_6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label7_6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label8_6">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label6_7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label7_7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label8_7">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="label6_8">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="(0,0)"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
