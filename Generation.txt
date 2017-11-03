@@ -1,0 +1,10 @@
+Create random board  - done.
+remove numbers
+solve with a point system
+score the puzzle
+pick some that look good
+Make it a seed
+	randomize the numbers
+		while keeping the proportions ex. if there are two 6 there must be another set of two numbers etc
+	flip it hor and ver
+	rotate 90 and 180...
